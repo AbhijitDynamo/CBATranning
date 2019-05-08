@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 int number,i;
 //printf("Enter the number: ");
@@ -9,4 +9,5 @@ int number,i;
   {
     printf("%2d X %2d = %2d\n",number,i,(number*i));
   }
+  return 0;
 }
